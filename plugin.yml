@@ -1,0 +1,30 @@
+    name: CustomPlates
+    main: il.co.EhudBlum.CustomPlates.CustomPlates
+    version: 1.0.2
+    
+    commands:
+        allowedplayers:
+          description: adding or removing allowed players to a plate.
+          usage: /allowedplayers [add/remove/list] [player,player...]
+          permission: CustomPlates.basic
+          permission-message: You don't have <permission>
+        ap:
+          description: adding or removing allowed players to a plate.
+          usage: /ap [add/remove/list] [player,player...]
+          permission: CustomPlates.basic
+          permission-message: You don't have <permission>
+        pp:
+          description: List your pressure plate.
+          usage: /pp
+          permission: CustomPlates.basic
+          permission-message: You don't have <permission>
+        cp:
+          description: Custom plates main command
+          usage: /cp
+          permission: CustomPlates.basic
+          permission-message: You don't have <permission>
+        customplates:
+          description: Custom plates main command
+          usage: /customplates
+          permission: CustomPlates.basic
+          permission-message: You don't have <permission>

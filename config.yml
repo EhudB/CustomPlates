@@ -1,0 +1,6 @@
+Items:
+    LockItem: 264
+    ModSwitchItem: 280
+    RemoveLockItem: 359
+Mod:
+    DefaultMod: OnlyMe
